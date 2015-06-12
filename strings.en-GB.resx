@@ -1,0 +1,315 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="accessdenied" xml:space="preserve">
+    <value>Access to file is denied</value>
+  </data>
+  <data name="Close" xml:space="preserve">
+    <value>Close ALT+F4</value>
+  </data>
+  <data name="Copy" xml:space="preserve">
+    <value>F5 Copy</value>
+  </data>
+  <data name="copyCanceled" xml:space="preserve">
+    <value>Copying canceled</value>
+  </data>
+  <data name="copyInProgress" xml:space="preserve">
+    <value>Copy in progress, Exit anyway?</value>
+  </data>
+  <data name="copyOnItself" xml:space="preserve">
+    <value>Not allow copy on itself!</value>
+  </data>
+  <data name="currentSize" xml:space="preserve">
+    <value>Current size:</value>
+  </data>
+  <data name="DateColumn" xml:space="preserve">
+    <value>Date</value>
+  </data>
+  <data name="Delete" xml:space="preserve">
+    <value>F8 Delete</value>
+  </data>
+  <data name="deleteAsk" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="deleteCaption" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="deleteConfirm" xml:space="preserve">
+    <value>Delete {0} files\directiories {1} From {2} ?</value>
+  </data>
+  <data name="dirExists" xml:space="preserve">
+    <value>Directory {0}{1} exists, rewrite?</value>
+  </data>
+  <data name="diskNotFound" xml:space="preserve">
+    <value>disk not found</value>
+  </data>
+  <data name="enterFolderName" xml:space="preserve">
+    <value>Enter folder name</value>
+  </data>
+  <data name="Error" xml:space="preserve">
+    <value>Error</value>
+  </data>
+  <data name="Exit" xml:space="preserve">
+    <value>Exit</value>
+  </data>
+  <data name="File" xml:space="preserve">
+    <value>File</value>
+  </data>
+  <data name="FileColumn" xml:space="preserve">
+    <value>Fille</value>
+  </data>
+  <data name="fileExists" xml:space="preserve">
+    <value>{0} file already exists! Rewrite? Cancel to Abort copy</value>
+  </data>
+  <data name="fileNotExists" xml:space="preserve">
+    <value>File not exists!</value>
+  </data>
+  <data name="filesDirs" xml:space="preserve">
+    <value>files\\directories?</value>
+  </data>
+  <data name="FolderDefaultName" xml:space="preserve">
+    <value>FolderName</value>
+  </data>
+  <data name="folderExists" xml:space="preserve">
+    <value>Folder already exists, enter another name!</value>
+  </data>
+  <data name="folderName" xml:space="preserve">
+    <value>Folder name</value>
+  </data>
+  <data name="folderNameInvalid" xml:space="preserve">
+    <value>Folder Name invalid</value>
+  </data>
+  <data name="from" xml:space="preserve">
+    <value>From: </value>
+  </data>
+  <data name="Info" xml:space="preserve">
+    <value>Information</value>
+  </data>
+  <data name="Lang" xml:space="preserve">
+    <value>Language</value>
+  </data>
+  <data name="longFileNameMsg" xml:space="preserve">
+    <value>File path name must be less than 260 symbols.\nEnter new name.\nCurrent length:</value>
+  </data>
+  <data name="longFileNameMsgShort" xml:space="preserve">
+    <value>Full file path greater than 260 symbols. File: {0} Current size {1}, Copying canceled</value>
+  </data>
+  <data name="Move" xml:space="preserve">
+    <value>F6 Move</value>
+  </data>
+  <data name="NewFolder" xml:space="preserve">
+    <value>F7 New Folder</value>
+  </data>
+  <data name="noFiles" xml:space="preserve">
+    <value>"No files to copy"</value>
+  </data>
+  <data name="noSelectedFiles" xml:space="preserve">
+    <value>No selected files </value>
+  </data>
+  <data name="notAllowDelete" xml:space="preserve">
+    <value>Not allow to delete [...]</value>
+  </data>
+  <data name="operationCanceled" xml:space="preserve">
+    <value>Operation canceled!</value>
+  </data>
+  <data name="pathTooLong" xml:space="preserve">
+    <value> {0} File path too long
+Path must be not longer than 248 symbols
+This folder will not be copy
+Current length {1}</value>
+  </data>
+  <data name="question" xml:space="preserve">
+    <value>Question</value>
+  </data>
+  <data name="Settings" xml:space="preserve">
+    <value>Settigs</value>
+  </data>
+  <data name="ShowHidden" xml:space="preserve">
+    <value>Show Hidden</value>
+  </data>
+  <data name="SizeColumn" xml:space="preserve">
+    <value>Size</value>
+  </data>
+  <data name="TypeColumn" xml:space="preserve">
+    <value>Type</value>
+  </data>
+  <data name="Warning" xml:space="preserve">
+    <value>Warning</value>
+  </data>
+  <data name="Cancel" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="CurrentProgress" xml:space="preserve">
+    <value>CurrentProgress</value>
+  </data>
+  <data name="Pause" xml:space="preserve">
+    <value>Pause</value>
+  </data>
+  <data name="ProgressCopyName" xml:space="preserve">
+    <value>Copy</value>
+  </data>
+  <data name="Start" xml:space="preserve">
+    <value>Start</value>
+  </data>
+  <data name="TotalProgress" xml:space="preserve">
+    <value>TotalProgress</value>
+  </data>
+  <data name="FromTo" xml:space="preserve">
+    <value>File</value>
+  </data>
+  <data name="Fail" xml:space="preserve">
+    <value>Fail</value>
+  </data>
+  <data name="allOperationsComleted" xml:space="preserve">
+    <value>All operations completed</value>
+  </data>
+  <data name="To" xml:space="preserve">
+    <value>To: </value>
+  </data>
+  <data name="NewName" xml:space="preserve">
+    <value>Enter new name</value>
+  </data>
+  <data name="Rename" xml:space="preserve">
+    <value>Rename</value>
+  </data>
+  <data name="CopyMenu" xml:space="preserve">
+    <value>Copy</value>
+  </data>
+  <data name="DeleteMenu" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="OpenMenu" xml:space="preserve">
+    <value>Open</value>
+  </data>
+  <data name="PasteMenu" xml:space="preserve">
+    <value>Paste</value>
+  </data>
+  <data name="RenameMenu" xml:space="preserve">
+    <value>Rename</value>
+  </data>
+  <data name="AddTab" xml:space="preserve">
+    <value>Add tab</value>
+  </data>
+  <data name="CutMenu" xml:space="preserve">
+    <value>Cut</value>
+  </data>
+  <data name="DelTab" xml:space="preserve">
+    <value>Delete tab</value>
+  </data>
+</root>

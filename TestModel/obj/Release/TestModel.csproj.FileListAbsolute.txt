@@ -1,0 +1,13 @@
+d:\Sokolov\dotNET\FileExplorerCode\FileBrowser\TestModel\bin\Release\TestModel.dll
+d:\Sokolov\dotNET\FileExplorerCode\FileBrowser\TestModel\bin\Release\TestModel.pdb
+d:\Sokolov\dotNET\FileExplorerCode\FileBrowser\TestModel\bin\Release\FileBrowser.exe
+d:\Sokolov\dotNET\FileExplorerCode\FileBrowser\TestModel\bin\Release\nunit.framework.dll
+d:\Sokolov\dotNET\FileExplorerCode\FileBrowser\TestModel\bin\Release\NLog.dll
+d:\Sokolov\dotNET\FileExplorerCode\FileBrowser\TestModel\bin\Release\FileBrowser.pdb
+d:\Sokolov\dotNET\FileExplorerCode\FileBrowser\TestModel\bin\Release\nunit.framework.xml
+d:\Sokolov\dotNET\FileExplorerCode\FileBrowser\TestModel\bin\Release\NLog.xml
+d:\Sokolov\dotNET\FileExplorerCode\FileBrowser\TestModel\bin\Release\en-GB\FileBrowser.resources.dll
+d:\Sokolov\dotNET\FileExplorerCode\FileBrowser\TestModel\bin\Release\ru-RU\FileBrowser.resources.dll
+d:\Sokolov\dotNET\FileExplorerCode\FileBrowser\TestModel\obj\Release\ResolveAssemblyReference.cache
+d:\Sokolov\dotNET\FileExplorerCode\FileBrowser\TestModel\obj\Release\TestModel.dll
+d:\Sokolov\dotNET\FileExplorerCode\FileBrowser\TestModel\obj\Release\TestModel.pdb

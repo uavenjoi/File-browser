@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!--This file represents the results of running a test suite-->
+<test-results name="D:\Sokolov\dotNET\FileExplorerCode\FileBrowser\TestModel\bin\Debug\TestModel.dll" total="9" errors="0" failures="0" not-run="0" inconclusive="0" ignored="0" skipped="0" invalid="0" date="2012-11-15" time="12:56:19">
+  <environment nunit-version="2.6.2.12296" clr-version="4.0.30319.269" os-version="Microsoft Windows NT 6.1.7601 Service Pack 1" platform="Win32NT" cwd="C:\Program Files (x86)\NUnit 2.6.2\bin" machine-name="EPKZKARW0201" user="Mikhail_Sokolov" user-domain="MOSCOW" />
+  <culture-info current-culture="en-US" current-uiculture="en-US" />
+  <test-suite type="Assembly" name="D:\Sokolov\dotNET\FileExplorerCode\FileBrowser\TestModel\bin\Debug\TestModel.dll" executed="True" result="Success" success="True" time="0.048" asserts="0">
+    <results>
+      <test-suite type="Namespace" name="TestModel" executed="True" result="Success" success="True" time="0.048" asserts="0">
+        <results>
+          <test-suite type="TestFixture" name="Test" executed="True" result="Success" success="True" time="0.048" asserts="0">
+            <results>
+              <test-case name="TestModel.Test.TestCopyInValidFile" executed="True" result="Success" success="True" time="0.007" asserts="1" />
+              <test-case name="TestModel.Test.TestCopyNullFile" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+              <test-case name="TestModel.Test.TestCopyValidFile" executed="True" result="Success" success="True" time="0.002" asserts="1" />
+              <test-case name="TestModel.Test.TestDeleteInValidFile" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+              <test-case name="TestModel.Test.TestDeleteNullFile" executed="True" result="Success" success="True" time="0.001" asserts="1" />
+              <test-case name="TestModel.Test.TestDeleteValidFile" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+              <test-case name="TestModel.Test.TestReplaceInvalidFile" executed="True" result="Success" success="True" time="0.005" asserts="1" />
+              <test-case name="TestModel.Test.TestReplaceNullFile" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+              <test-case name="TestModel.Test.TestReplaceValidlFile" executed="True" result="Success" success="True" time="0.002" asserts="1" />
+            </results>
+          </test-suite>
+        </results>
+      </test-suite>
+    </results>
+  </test-suite>
+</test-results>

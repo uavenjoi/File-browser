@@ -1,0 +1,16 @@
+2013-04-03 09:27:44.6915 | CommandDeleteFiles.DeleteFiles => MyLog.WriteError => MyLog.WriteError | The process cannot access the file 'D:\Sokolov\INIS\Temp\Saldo Penalty 01.04.13\test' because it is being used by another process.    at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.Directory.DeleteHelper(String fullPath, String userPath, Boolean recursive)
+   at System.IO.Directory.Delete(String fullPath, String userPath, Boolean recursive)
+   at FileBrowser.Commands.CommandDeleteFiles.DeleteFiles(List`1 dirs) in d:\Sokolov\dotNET\FileExplorerCode\FileBrowser\Commands\CommandDeleteFiles.cs:line 68
+2015-06-12 15:33:17.5751 | PresenterFileViewer`1..ctor => TextRes.set_CurrentCulture => TextRes.SetCulture |    at System.Globalization.CultureInfo..ctor(String name, Boolean useUserOverride)
+   at FileBrowser.Service.TextRes.SetCulture() in d:\Sokolov\dotNET\FileExplorerCode\FileBrowser\Service\TextResources.cs:line 29
+2015-06-12 15:33:17.8101 | PresenterFileViewer`1..ctor => TextRes.set_CurrentCulture => TextRes.SetCulture |    at System.Globalization.CultureInfo..ctor(String name, Boolean useUserOverride)
+   at FileBrowser.Service.TextRes.SetCulture() in d:\Sokolov\dotNET\FileExplorerCode\FileBrowser\Service\TextResources.cs:line 29
+2015-06-12 15:33:17.8141 | PresenterMainForm`1..ctor => TextRes.set_CurrentCulture => TextRes.SetCulture |    at System.Globalization.CultureInfo..ctor(String name, Boolean useUserOverride)
+   at FileBrowser.Service.TextRes.SetCulture() in d:\Sokolov\dotNET\FileExplorerCode\FileBrowser\Service\TextResources.cs:line 29
+2015-06-12 15:33:17.8841 | Program.Main => PresenterMainForm`1..ctor => Tabs.LoadTabs |    at System.Runtime.Serialization.Formatters.Binary.BinaryFormatter.Deserialize(Stream serializationStream, HeaderHandler handler, Boolean fCheck, Boolean isCrossAppDomain, IMethodCallMessage methodCallMessage)
+   at System.Runtime.Serialization.Formatters.Binary.BinaryFormatter.Deserialize(Stream serializationStream)
+   at FileBrowser.Model.Tabs.LoadTabs(Side side) in d:\Sokolov\dotNET\FileExplorerCode\FileBrowser\Model\ModelMainForm.cs:line 61
+2015-06-12 15:33:17.9191 | Program.Main => PresenterMainForm`1..ctor => Tabs.LoadTabs |    at System.Runtime.Serialization.Formatters.Binary.BinaryFormatter.Deserialize(Stream serializationStream, HeaderHandler handler, Boolean fCheck, Boolean isCrossAppDomain, IMethodCallMessage methodCallMessage)
+   at System.Runtime.Serialization.Formatters.Binary.BinaryFormatter.Deserialize(Stream serializationStream)
+   at FileBrowser.Model.Tabs.LoadTabs(Side side) in d:\Sokolov\dotNET\FileExplorerCode\FileBrowser\Model\ModelMainForm.cs:line 61
